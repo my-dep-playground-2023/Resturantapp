@@ -9,12 +9,11 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Items implements Serializable {
-    private  int appa;
-    private  int banis;
-    private  int kottu;
-    private  int rice;
+public class Table1 implements Serializable {
+    public String id;
 
+    public String name;
 
+    public String status;
 
 }
